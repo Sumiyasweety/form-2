@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../page/style.css">
+    <title>register page</title>
+</head>
+<body>
+    <div id="admin-box">
+        <img src="../page/img/register page.png" width="200"/>
+        <h1>register page</h1>
+        <form>
+            <label for="f-name">Your first name</label><br>
+            <input type="text" name="f-name" required placeholder="Enter your first name"/><br>
+            <label for="l-name">Enter Your last name</label><br>
+            <input type="l-name" name="l-name" required placeholder="Enter your last name"/><br>
+            <label for="mail">Your email</label><br>
+            <input type="email" placeholder="Enter your email address"/><br>
+            <label for="pass">Enter Your Password</label><br>
+            <input type="password" name="pass" required placeholder="Enter your password"/><br>
+            <label for="cpass">Your confirm password</label><br>
+            <input type="password" name="pass"placeholder="confirm your password"/><br>
+            <label for="number">Enter your phone number</label><br>
+            <input type="number"placeholder="enter phone number"/><br>
+            <label for="datemin">Birth Date</label><br>
+            <input type="date" id="datemin" name="datemin"><br>
+            <p>Gender</p>
+           <input type="radio" id="male" name="gender" value="male">
+           <label for="male">Male</label>
+           <input type="radio" id="female" name="gender" value="female">
+           <label for="female">Female</label><br>
+           <input type="submit" value="register"/>
+        </form>
+        <p class="pg">can't remember your password? please <a href="reset.html">reset here</a></p>
+        <p class="pg">
+            Already have a account? please <a href="../index.html">login page</a>
+        </p>
+    </div>
+</body>
+</html>
